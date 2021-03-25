@@ -1,0 +1,156 @@
+[
+  {
+    "id": "supermarket1",
+    "name": "Mercadona",
+    "address": {
+      "street": "Avenida del supermercado, 10",
+      "city": "Madrid",
+      "geolocation": {
+        "latitude": 40.439564,
+        "longitude": -3.690181
+      }
+    },
+    "photo": "https://d500.epimg.net/cincodias/imagenes/2019/12/18/companias/1576683703_484031_1576683907_noticia_normal.jpg",
+    "products": {
+      "salesProducts": [
+        {
+          "id": "PorkSales1",
+          "name": "Chicken",
+          "type": "Meat",
+          "unit": 2,
+          "price": {
+            "value": "4,99",
+            "salesValue": "2,99",
+            "currency": "€"
+          },
+          "caducity": "12/12/2021",
+          "validitySales": {
+            "start": "01/02/2021",
+            "end": "03/08/2021"
+          },
+          "shop": true
+        },
+        {
+          "id": "milkSales1",
+          "name": "Milk",
+          "type": "Dairy",
+          "unit": 6,
+          "price": {
+            "value": "2,25",
+            "salesValue": "1,99",
+            "currency": "€"
+          },
+          "caducity": "03/06/2021",
+          "validitySales": {
+            "start": "05/02/2021",
+            "end": "09/09/2021"
+          },
+          "shop": false
+        }
+      ],
+      "standarProducts": [
+        {
+          "id": "bananaProduct1",
+          "name": "Banana",
+          "type": "Fruit",
+          "unit": 4,
+          "price": {
+            "value": "3,59",
+            "currency": "€"
+          },
+          "caducity": "03/03/2021",
+          "shop": true
+        },
+        {
+          "id": "cookiesProduct2",
+          "name": "Cookies",
+          "type": "bakery",
+          "unit": 1,
+          "price": {
+            "value": "5,99",
+            "currency": "€"
+          },
+          "caducity": "19/08/2021",
+          "shop": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "supermarket2",
+    "name": "Carrefour",
+    "address": {
+      "street": "Avenida del otro supermercado, 29",
+      "city": "Madrid",
+      "geolocation": {
+        "latitude": 40.439564,
+        "longitude": -3.690181
+      }
+    },
+    "photo": "https://www.ecestaticos.com/imagestatic/clipping/40d/2f3/40d2f31ae6a76760317d9a610208638b/24-horas-al-dia-todos-los-dias-del-ano-la-utopia-de-carrefour-para-aplacar-a-amazon.jpg?mtime=1579565836",
+    "products": {
+      "salesProducts": [
+        {
+          "id": "porkSales1",
+          "name": "Pork",
+          "type": "Meat",
+          "unit": 1,
+          "price": {
+            "value": "2,99",
+            "salesValue": "2,00",
+            "currency": "€"
+          },
+          "caducity": "12/12/2021",
+          "validitySales": {
+            "start": "01/02/2021",
+            "end": "03/08/2021"
+          },
+          "shop": false
+        },
+        {
+          "id": "breadSale2",
+          "name": "Bread",
+          "type": "Bakery",
+          "unit": 2,
+          "price": {
+            "value": "1,25",
+            "salesValue": "0,95",
+            "currency": "€"
+          },
+          "caducity": "03/06/2021",
+          "validitySales": {
+            "start": "05/02/2021",
+            "end": "09/09/2021"
+          },
+          "shop": true
+        }
+      ],
+      "standarProducts": [
+        {
+          "id": "appleProduct",
+          "name": "Apple",
+          "type": "Fruit",
+          "unit": 6,
+          "price": {
+            "value": "4,95",
+            "currency": "€"
+          },
+          "caducity": "03/03/2021",
+          "shop": true
+        },
+        {
+          "id": "pizzaProduct",
+          "name": "Pizza",
+          "type": "frosty",
+          "unit": 1,
+          "price": {
+            "value": "3,99",
+            "currency": "€"
+          },
+          "caducity": "19/08/2021",
+          "shop": false
+        }
+      ]
+    }
+  }
+]
